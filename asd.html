@@ -7,15 +7,99 @@
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <title>Padoca do tio, a melhor do Ratones!</title>
+    <style type="text/css">
+    	header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+@media only screen and (max-width: 600px) {
+    small {
+        display: none;
+    }
+     header {
+    background: url('pao.png') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+  #pao{
+  	background-image: url();
+  }
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('pao.png') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+h1{
+	text-shadow: 4px 4px #000000;
+}
+
+.navbar-default{
+	background: linear-gradient(20deg, rgba(23,23,23,1) 25%, rgba(83,81,86,1) 65%);
+	padding: 20px;
+	color:white;
+	font-family: 'Dancing Script', cursive;
+}
+#about{
+	background-color: black;
+}
+.asd{
+	padding: 20px;
+	color: 
+}
+#pao{
+	background-image: url(fundo2.png);
+	background-repeat: no-repeat;
+}
+    </style>
   </head>
   <body>
     <header>
   <div class="overlay"></div>
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="media/pao.mp4" type="video/mp4">
+    <source src="pao.mp4" type="video/mp4">
   </video>
   <div class="container h-100">
     <div class="d-flex text-center h-100">
