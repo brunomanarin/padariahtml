@@ -1,7 +1,7 @@
 # Site genérico de padaria
 
 Feito como atividade quando era Trainee da Pixel(Empresa Júnior de Sistemas e Computação da UFSC).
-Exércicio para desenvolver habilidades de CSS e HTML. Um dos primeiros sites que fiz   :'-)
+Exercício para desenvolver habilidades de CSS e HTML. Um dos primeiros sites que fiz   :'-)
 
 ### Como instalar:
 
